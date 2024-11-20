@@ -1,6 +1,6 @@
 /*
  *  1.출력
- *   ***System.out.println()=> 에러
+ *   ***System.out.println() => 에러
  *                   == new Line
  *   System.out.print()
  *                  == 가로 출력
@@ -32,7 +32,7 @@ public class 연산자_이항연산자_산술연산자2 {
 		System.out.println("국어:"+kor);
 		System.out.println("영어:"+eng);
 		System.out.println("수학:"+math);
-		//System.out.print("국어:"+kor+"","영어:"+eng+"","수학:"+math);
+		System.out.print("국어:"+kor+""+"영어:"+eng+""+"수학:"+math);
 		System.out.println();
 		System.out.printf("국어:%d,영어:%d,수학:%d",kor,eng,math);
 	/*
