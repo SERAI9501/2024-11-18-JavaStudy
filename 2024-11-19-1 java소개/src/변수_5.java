@@ -14,7 +14,7 @@
  * 			산술연산자(+,-,*,/,%)
  * 			비교연산자(==,!=,<,>,<=,>=)
  * 					왼쪽기준으로 만듬
- * 			논리연산자(&&:직렬연산자, ll 병렬연산자
+ * 			논리연산자(&&:직렬연산자, || 병렬연산자
  * 			대입연산자(=)
  * 			복합대입연산자(+=,-=,*=,/=,%=...)
  * 	 	 3.삼항연산자
@@ -35,7 +35,7 @@
  *  int a=10;
  *  
  *  int a=10;
- *  int b=a ++; =>ekfms dustkstngod skwnddp wmdrk
+ *  int b=a ++; =>
  *      --- ---
  *       1   2
  *  a=? 11
@@ -46,13 +46,21 @@
  *  
  *  증가후에 대입
  *  
+ *  int a=10;
+ *  int b=a++ + a++ + a++ =>33
+ *        ---  ----   ---
+ *        10    11     12
+ *  int a=10;
+ *  int b=++a + ++a + a++ + a++; =>47
+ *         11   12     12    12
+ *  ++a / a++ / a=a+1 / a+=1 =모두 동일
  */
 public class 변수_5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		char a='Z';
-		System.out.println(++a);
+		System.out.println(a);
 	}
 
 }

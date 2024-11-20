@@ -34,7 +34,7 @@ public class 변수_1 {
  * 2byte => 16bit
  * 4byte => 32bit =>21억 4천
  * 8byte => 64bit
- * 존지 존재 한다.
+ * 존재 한다.
  * 
  * 100을 저장하려면 어디에 저장하는게 가장 잘 했다 할까? 4byte
  *  데이터 형
@@ -131,7 +131,7 @@ public class 변수_1 {
  * int b;
  * int c;
  * int d;
- * int e
+ * int e;
  * 
  * => int a,b,c,d,e;
  * 변수 = 메모리 저장 공간 => 변경이 가능하다
