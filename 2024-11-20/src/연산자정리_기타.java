@@ -13,8 +13,8 @@ public class 연산자정리_기타 {
         //System.out.println("c:\\javaDev\\javaStudy");
 		//System.out.print("Hello \n");
 		//System.out.print("Java!!");
-		
-		System.out.print("Hello\tHello\tHello");
+		//System.out.print("Hello\tHello\tHello");
+		//System.out.println("\"홍길동\"");//"홍길동"
 	}
 
 }

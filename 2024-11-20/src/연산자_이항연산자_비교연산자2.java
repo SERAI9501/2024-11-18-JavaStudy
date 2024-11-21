@@ -8,7 +8,7 @@ public class 연산자_이항연산자_비교연산자2 {
 		//
 		char b=(char)((int)(Math.random()*26)+65);
 		System.out.println(b);
-		System.out.println();
+		System.out.println(a);
 		
 		// ==
 		System.out.println(a==b);

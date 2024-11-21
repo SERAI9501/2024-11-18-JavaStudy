@@ -16,7 +16,7 @@ public class 연산자_이항연산자_논리연산자1 {
        결과값 true/false
 조건 && 조건
 -------------------
-true   true=======true
+true   true====true
 -------------------
 true   false false
 -------------------
@@ -27,13 +27,13 @@ false  false false
 
 조건 || 조건
 -------------------
-true   true
+true   true======true
 -------------------
-true   false
+true   false=====true
 -------------------
-false  true
+false  true======true
 -------------------
-false  false
+false  false  false
 -------------------
 
 int x=10;
