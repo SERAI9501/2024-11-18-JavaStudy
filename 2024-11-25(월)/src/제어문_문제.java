@@ -115,14 +115,14 @@ public class 제어문_문제 {
 //			System.out.print("2+4+6...100의합:"+sum);
 			
 		
-		//4번 5,10,15,20,25,30,35,40,45,50을 출력하는 프로그램을 만들어라 (for 사용)
+//		4번 5,10,15,20,25,30,35,40,45,50을 출력하는 프로그램을 만들어라 (for 사용)
 //		for(int i=5;i<=50;i+=5)
 //			if(i>45) {	
-//				System.out.println();
+//				System.out.println(i);
 //			}
 //			else
-//			System.out.print(i+",");
-//		
+//				System.out.print(i+",");
+		
 //		//5번
 //		for(char i='B';i<='N';i+=2)
 //			System.out.print(i+" ");
@@ -160,11 +160,11 @@ public class 제어문_문제 {
 //		}
 //		System.out.println("sum="+sum);
 //		//9)	 1~10 사이의 숫자 중 3의 배수를 제외하고 출력하라 (continue 사용)	
-		for(int i=1;i<=10;i++)
-		{
-			if(i%3!=0)
-				System.out.println(i+" ");
-		}
+//		for(int i=1;i<=10;i++)
+//		{
+//			if(i%3!=0)
+//				System.out.println(i+" ");
+//		}
 		/*
 		 *  for 반복 횟수가 지정된 경우 주로 for을 사용하는 경향이 있다.
 		 *  => 초기식 : 시작점 => 한번만
@@ -172,6 +172,9 @@ public class 제어문_문제 {
 		 *  => 증감식 : 횟수지정=> i++ , i+=2
 		 *                          ----- 2씩 증가(복합 대입 연산자)
 		 *  사용처 : 목록 출력할때/페이징기법에 많이 쓰인다.
+		 *  형식  i=1  i<=10 i++
+		 *   for(초기식;조건식;증가식)
+		 *     반복 실행 문장
 		 */
 	}
 

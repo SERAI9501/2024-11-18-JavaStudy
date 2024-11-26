@@ -23,7 +23,7 @@ public class 반복문_3 {
 		System.out.println("=======요청 결과값 ========");
 		for(int i=1;i<=9;i++)
 		{
-			System.out.println(dan+"+"+i+"="+dan*1);
+			System.out.println(dan+"+"+i+"="+dan*i);
 			
 			
 		}
