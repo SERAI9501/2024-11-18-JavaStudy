@@ -112,25 +112,25 @@ public class 반복문_3 {
 //		}
 //		System.out.println();
 //		
-//		for(int i=1;i<=4;i++)
-//		{
-//			for(int j=1;j<=5-i;j++)
-//			{
-//				System.out.print("★");
-//			}
-//			System.out.println();
-//		}
-//		for(int i=1;i<=6;i++)
-//		{
-//			for(int j=1;j<=6;j++)
-//			{
-//				if(i+j==6)
-//				{
-//					//System.out.println("["+i+","+j+']');
-//					System.out.printf("[%d,%d]\n",i,j);
-//				}
-//			}
-//		}
+		for(int i=1;i<=4;i++)
+		{
+			for(int j=1;j<=5-i;j++)
+			{
+				System.out.print("★");
+			}
+			System.out.println();
+		}
+		for(int i=1;i<=6;i++)
+		{
+			for(int j=1;j<=6;j++)
+			{
+				if(i+j==6)
+				{
+					//System.out.println("["+i+","+j+']');
+					System.out.printf("[%d,%d]\n",i,j);
+				}
+			}
+		}
 //		for(int i=1;i<=4;i++)
 //		{
 //			System.out.println();

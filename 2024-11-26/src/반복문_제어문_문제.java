@@ -32,8 +32,8 @@ public class 반복문_제어문_문제 {
 //		{
 //			for(int j=1;j<=6;j++)
 //			{
-//				if(i+j==12)
-//					System.out.println("["+i);
+//				if(j+i==6)
+//					System.out.println("["+i+","+j+']');
 //			}
 //		}
 
@@ -76,7 +76,7 @@ public class 반복문_제어문_문제 {
 //		sum+=i;	
 //	}
 //	System.out.print("sum="+sum);
-		
+//		
 //8. 3이상 4462 이하에서 짝수인 정수의 합을 구하여라.
 //		int c=0;
 //		for(int i=3;i<=4462;i++)
@@ -112,18 +112,19 @@ public class 반복문_제어문_문제 {
 //		int count=0;
 //		for(int i=1;i<=10;i++)
 //		{	
-//			int num=(int)(Math.random()*100)+1;
+//			System.out.print("정수를 입력하시오:");
+//			int num=scan.nextInt();
+//			if(num%2==0)
+//				count++;
 //		}
-//		System.out.print(num);
-	
-		
+//		System.out.print(count);
 		
 //12. 10개의 정수를 입력받아 3의 배수의 개수와 5의 배수의 개수를 각각 출력하는 프로그램
 //		int cnt3=0,cnt5=0;
 //		for(int i=0;i<10;i++)
 //		{
 //			int num=(int)(Math.random()*100)+1;
-//			System.out.println(num+" ");
+//			System.out.println(num);
 //			if(num%3==0)
 //				cnt3++;
 //			if(num%5==0)
@@ -142,12 +143,12 @@ public class 반복문_제어문_문제 {
 //		int num=scan.nextInt();
 //		for(int i=1;i<=num;i++)
 //		{
-//			for(int j=1;j<=i;j++)
+//			for(int j=1;j<=10;j++)
 //			{
-//				System.out.println("*");
+//				System.out.print("*");
 //			}
 //			System.out.println();
-//		}
+		}
 //14. 다음 결과를 출력하는 프로그램
 		//1 1 1 1 1 
 		//2 2 2 2 2
@@ -162,13 +163,16 @@ public class 반복문_제어문_문제 {
 //				System.out.print(k);
 //			}
 //			k++;
+//		}
 //			System.out.println();
+
 //15. 다음 결과를 출력하는 프로그램
 //1 1 1 1 1 
 //2 2 2 2 2
 //3 3 3 3 3
 //4 4 4 4 4
 //5 5 5 5 5 
+//	int k=1;
 //	for(int i=1;i<=5;i++)
 //	{
 //		for(int j=1;j<=5;j++)
@@ -178,12 +182,14 @@ public class 반복문_제어문_문제 {
 //			
 //		}
 //		k++;
+//	}
 //		System.out.println();
 
 //16.
-//for(int i=1;i<=5;i++)
+//int k=0;
+//	for(int i=1;i<=5;i++)
 //{
-
+//
 //	for(int j=1;j<=5;j++)
 //	{
 //		if(i==j)
@@ -211,20 +217,20 @@ public class 반복문_제어문_문제 {
 	 *  ☆☆☆☆☆
 	 *  ★☆☆☆★
 	 */
-	for(int i=1;i<=5;i++)
-	{
-		for(int j=1;j<=5;j++)
-		{
-			if((i==1 && j==1)||(i==5 && j==1)
-				|| (i==1 && j==5)||(i==5 && j==5))
-			System.out.print("☆");
-			else
-			System.out.print("★");
+//	for(int i=1;i<=5;i++)
+//	{
+//		for(int j=1;j<=5;j++)
+//		{
+//			if((i==1 && j==1)||(i==5 && j==1)
+//				|| (i==1 && j==5)||(i==5 && j==5))
+//			System.out.print("☆");
+//			else
+//			System.out.print("★");
+//		}
+//		System.out.println();
+//		
+//	}
 		}
-		System.out.println();
-		
-	}
+}
 
 
-}
-}
