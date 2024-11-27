@@ -196,24 +196,25 @@ public class 제어문_문제 {
 		
 //10. 사용자에게 문자열 3개를 입력받아 길이값의 합을 출력하고, 가장 긴 문자열을 출력하기
 //		String
-		i=1;
-		int sum=0;
-		String strMax="";
-		int Max=0;
-		while(i<=3)
-		{
-			System.out.print("문자열 입력:");
-			String str=scan.nextLine();
-			sum+=str.length();
-			if(Max<str.length())
-			{
-				strMax=str;
-			}
-				
-			i++;
-		}
-		System.out.println("총 문자열 길이:"+sum);
-		System.out.println("긴 문자열 출력:"+strMax);
+		
+//		i=1;
+//		int sum=0;
+//		String strMax="";
+//		int Max=0;
+//		while(i<=3)
+//		{
+//			System.out.print("문자열 입력:");
+//			String str=scan.nextLine();
+//			sum+=str.length();
+//			if(Max<str.length())
+//			{
+//				strMax=str;
+//			}
+//				
+//			i++;
+//		}
+//		System.out.println("총 문자열 길이:"+sum);
+//		System.out.println("긴 문자열 출력:"+strMax);
 
 	
 
