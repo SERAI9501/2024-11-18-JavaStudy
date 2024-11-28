@@ -71,7 +71,7 @@
  *     }
  *     => 무조건 break를 사용하는 것은 아니다
  *     => 같은 수행문장을 수행할때는 break를 사용하지 않는다
- *         case 10 : case 9: = jumsu==10 || jumsu==9
+ *         case 10 : case 9 : = jumsu==10 || jumsu==9
  *           score:'A'
  *     =>case에 중복된 데이터는 사용할 수 없다
  *     =>다중 조건문으로 변경이 가능
