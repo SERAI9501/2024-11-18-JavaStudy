@@ -218,14 +218,14 @@ public class 자바1_3_장_정리 {
 //		int year=userInput("년도");
 //		int month=userInput("월");
 //		int day=userInput("일");
-////
+//
 //		String s1="Hello";
 //		String s2="Hello";
 //		String s3=new String("Hello");
 //		if(s1)equlas(s3)
 //		{
 //			System.out.println("동일");
-////		A a=new A();
+//		A a=new A();
 //		for(int i=1;i<=100;i++)
 //		{
 //			

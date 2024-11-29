@@ -108,16 +108,16 @@ public class 반복문_제어문_문제 {
 //	System.out.println(sum);
 	
 //11. 10개의 정수를 입력받아 그 수들 중 짝수의 개수가 몇개인지 출력하는 프로그램 작성
-//		Scanner scan=new Scanner(System.in);
-//		int count=0;
-//		for(int i=1;i<=10;i++)
-//		{	
-//			System.out.print("정수를 입력하시오:");
-//			int num=scan.nextInt();
-//			if(num%2==0)
-//				count++;
-//		}
-//		System.out.print(count);
+		Scanner scan=new Scanner(System.in);
+		int count=0;
+		for(int i=1;i<=10;i++)
+		{	
+			System.out.print("정수를 입력하시오:");
+			int num=scan.nextInt();
+			if(num%2==0)
+				count++;
+		}
+		System.out.print(count);
 		
 //12. 10개의 정수를 입력받아 3의 배수의 개수와 5의 배수의 개수를 각각 출력하는 프로그램
 //		int cnt3=0,cnt5=0;
