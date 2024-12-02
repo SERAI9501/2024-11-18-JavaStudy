@@ -2,6 +2,8 @@ import java.util.Arrays;
 import java.util.Scanner;
 public class 아침_및_종합복습 {
 
+	private static int end;
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//(          ) : 문자열이 지정한 문자로 시작하는지 판단 같으면 true반환 아니면 false를 반환한다.(대소문자구별)
@@ -20,10 +22,41 @@ public class 아침_및_종합복습 {
 		//(            ):지정한 개체의 원시 값을 반환
 		//(              ):두개의 String을 비교해서 비교대상 String을 포함하고 있으면true, 다르면 false를 반환한다.
 		//(                  ):지정한 index번째에 문자를 반환한다.
+		
 		//1. 대소문자가 있는 문자열을 입력받아서 대문자는 소문자로 소문자는 대문자 변경
+//		System.out.println("대소문자를 입력하시오:");
+//		String a1=scan.nextLine();
+//		while(true)
+//		{
+//			if
+//			System.out.println();
+//		}
+//		
+//		System.out.print("영문 입력:");
+//		String msg=scan.next();
+//		System.out.println("변경 전:"+msg);
+//		String change="";
+//		for(int i=0;i<msg.length();i++)
+//		{
+//			char c=msg.charAt(i);
+//			if(c>='A' && c<='Z')
+//		{
+//			
+//			}
+//		}
 		//2. 문자열을 입력받아서 역순으로 출력하는 프로그램 작성
+//		Scanner scan=new Scanner(System.in);
+//		System.out.print("영문 입력:");
+//		String msg=scan.next();
+//		
+//		for(int i=msg.length()-1;i>=0;i--)
+//		{
+//			System.out.print(msg.charAt(i));
+//		}
+		
 //-------------------------------------------------------------------------------------------------------
 		//1. 구구단 중 원하는 단수 입력 받아 결과를 출력하기
+		
 		//2. 1~100사이 정수 중에서 8의 배수 출력하기
 //		int a=1;
 //		for(a=1;a<=100;a++)
@@ -52,11 +85,51 @@ public class 아침_및_종합복습 {
 //			}
 //		}a++;
 // 4. 1~100사이 정수중에서 일의 자리 수가 3 또는 6 또는 9인 정수를 출력하기
+//		int i=1;
+//		while(i<=100)
+//		{
+//			if(i%10==3|| i%10==6|| i%10==9)
+//				System.out.print(i+" ");
+//			i++;
+//		}
+//		System.out.println();
 //5. 사용자에게 문자열을 입력받아 모음의 개수를 출력하기 (a, e, i, o, u)
+//		Scanner scan=new Scanner(System.in);
+//		int j=0;
+//		int a=0,e=0,k=0,o=0,u=0;
+//		System.out.println("문자열 입력:");
+//		String str=scan.nextLine();
+//		while(j<str.length())
+//		{
+//			char c=str.charAt(j);
+//			if(c=='a')
+//				a++;
+//			else if(c=='e')
+//				e++;
+//			else if(c=='i')
+//					k++;
+//			else if(c=='o')
+//					o++;
+//			else if(c=='u')
+//				u++;
+//			j++;
+//		}
 //6. 사용자에게 1 ~ 9사이의 정수를 입력받아 2자리의 자연수 중 각 자리수의 합이 입력값과 동일한 수 출력하기
 //7. 10부터 20까지 순서대로 출력
-//8. 10부터 20까지 역순으로 출력
-//문자열을 입력을 받아서 => 꺼꾸로 출력
+//		int a=0;
+//		for(int i=10;i<=20;i++)
+//		{
+//			a=i;
+//			System.out.print(a+" ");
+//		}
+////8. 10부터 20까지 역순으로 출력
+//		int a=0;
+//		for(int i=20;i>=10;i--)
+//		{
+//			a=i;
+//			System.out.print(a+" ");
+//		}
+
 //9. 사용자가 입력한 5개의 정수 중 가장 큰 값을 출력하기
 //		Scanner scan=new Scanner(System.in);
 		
@@ -86,6 +159,17 @@ public class 아침_및_종합복습 {
 
 			
 //5.  두 개의 주사위를 던졌을 때, 눈의 합이 6이 되는 모든 경우의 수를 출력하는 프로그램을 작성하시오
+//		for(int i=1;i<=6;i++)
+//		{
+//			for(int j=1;j<=6;j++)
+//			{
+//				if(i+j==6)
+//				{
+//					//System.out.println("["+i+","+j+']');
+//					System.out.printf("[%d,%d]\n",i,j);
+//				}
+//			}
+//		}
 
 
 //6. 사용자로부터 두개의 정수(시작,끝)를 입력받아 시작(포함)해서 끝(포함)까지의 곱을 출력하는 프로그램을 작성하시오.
@@ -139,6 +223,18 @@ public class 아침_및_종합복습 {
 
 		
 //12. 10개의 정수를 입력받아 3의 배수의 개수와 5의 배수의 개수를 각각 출력하는 프로그램
+//		Scanner scan=new Scanner(System.in);
+//		int cnt3=0,cnt5=0;
+//		for(int i=0;i<=10;i++)
+//		{
+//			System.out.print("숫자를 입력:");
+//			int a2=scan.nextInt();
+//			if(a2%3==0)
+//				cnt3++;
+//			if(a2%5==0)
+//				cnt5++;
+//			i++;
+//		}System.out.println("3의배수 갯수"+cnt3+" "+"5의배수 갯수"+cnt5);
 
 //		
 //13.다음 결과를 출력하는 프로그램 5행 10열
@@ -147,6 +243,17 @@ public class 아침_및_종합복습 {
 		//**********
 		//**********
 		//**********
+//		Scanner scan=new Scanner(System.in);
+//		System.out.print("행수를 입력하시오:");
+//		int num=scan.nextInt();
+//		for(int i=1;i<=num;i++)
+//		{
+//			for(int j=1;j<=10;j++)
+//			{
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
 
 		
 //14. 다음 결과를 출력하는 프로그램
@@ -155,15 +262,10 @@ public class 아침_및_종합복습 {
 		//3 3 3 3 3 
 		//4 4 4 4 4  
 		//5 5 5 5 5
+	
 
 
-//15. 다음 결과를 출력하는 프로그램
-//1 1 1 1 1 
-//2 2 2 2 2
-//3 3 3 3 3
-//4 4 4 4 4
-//5 5 5 5 5 
-		//-------------------------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------
 		
 //for-each 구문
 // 1~10까지난수 발생 => 배열[10] => 중복이 없이 저장
@@ -307,9 +409,76 @@ public class 아침_및_종합복습 {
 //		System.out.println(Arrays.toString(arr));
 //13.		 3명의 학생에 대한 국어,영어,수학 점수를 입력받아서 저장후에 총점,평균,등수를 구하고 국어점수 총점,영어점수 총점,수학점수의 총점을 구해서 출력하는 프로그램을 작성하시오
 
+//	1) 10개의 문자를 가지는 배열 c를 생성하는 코드를 한 줄로 쓰라.
+//	 char[] new=char c[10]​
+//	2) 0에서 5까지 정수 값으로 초기화된 정수 배열 n을 선언하라.
+//	int n=new int[6]
+// for(int i=0;i<n.length;i++)
+//{
+//}​
+//	3) '일', '월', '화', '수', '목', '금', '토'로 초기화된 배열 day를 선언하라.
+//	int
+//​
+//	4) 4개의 논리 값을 가진 배열 bool을 선언하고 true, false, false, true로 선언하라.
+// boolean[] new=c boolean[4]
+//3. 배열 alpha를 모두 출력하고자 한다. 빈칸에 적절한 코드를 삽입하시오.
+//char[] alpha = {'a', 'b', 'c', 'd'};
+//
+//for(i=0; i<alpha.length;i++ )
+//     System.out.print(alpha[i]);
+//4. 양의 정수 10개 입력받아 배열에 저장하고, 배열에 있는 정수 중에서 3의 배수만 출력하는 프로그램을 작성하라
+//		Scanner scan=new Scanner(System.in);
+//		
+//		for(i=0;i<9;i++)
+//		{
+//			int c=scan.nextInt();
+//			
+//		}
+//		if(c>0)
+//		{
+//			System.out.print("잘못 입력하셨습니다.");
+//			i--;
+//		}
 		
+//		5. 정수를 10개 저장하는 배열을 만들고 1에서 10까지 범위의 정수를 랜덤하게 생성하여 배열에 저장하라. 
+//		그리고 배열에 든 숫자들과 평균을 출력하라.
+//		int[] a=new int[10];
+//		for(int i=0;i<a.length;i++)
+//		{
+//			a[i]=(int)(Math.random()*10)+1;
+//		}
+//		double b=0.0;
+//		for(int i:a)
+//		{
+//			System.out.print(Arrays.toString(a));
+//		}
+//		6. int[] num = { 94, 85, 95, 88, 90 };다음 배열에서 최대값,최소값을 출력하는 프로그램을 작성하시오
+//		int[] num={94,85,95,88,90};
+//		int max=num[0];
+//		int min=num[0];
+//		for(int i:num)
+//		{
+//			if(max<i)
+//				max=i;
+//			if(min>i)
+//				min=i;
+//		}
+//		System.out.println("최대값:"+max);
+//		System.out.println("최소값:"+min);
 		
-		
+//		7. 정수를 10개 저장하는 배열을 만들고 1에서 10까지 범위의 정수를 랜덤하게 생성하여 배열에 저장하라. 그리고 배열에 든 숫자들과 평균을 출력하라.
+//		예) 랜덤한 정수들 : 3 6 3 6 1 3 8 9 6 9 평균은 5.4
+//		[Hint] 1에서 10까지 범위의 정수를 랜덤하게 생성할 때는 다음 코드를 이용하라
+//		int i  = (int)(Math.random()*10)+1;
+//		int[] a=new int[10];
+//		for(int i=0;i<a.length;i++)
+//		{
+//			a[i]=(int)(Math.random()*10)+1;
+//		}
+//		for(int a:i)
+//		{
+//			System.out.println(" "+a);
+//		}
 	}
 
-}
+	}
